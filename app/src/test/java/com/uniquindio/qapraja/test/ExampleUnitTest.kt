@@ -1,4 +1,4 @@
-package com.uniquindio.qapraja
+package com.uniquindio.qapraja.test
 
 import org.junit.Test
 

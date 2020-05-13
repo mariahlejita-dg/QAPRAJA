@@ -97,7 +97,7 @@
     <string name="ListProcess">In process</string>
     <string name="registerJob">register job</string>
     <string name="registerPersonal">create Account</string>
-
+    <string name="finished">Finished?</string>
     <string name="cerrar_sesion">Sign out</string>
     <string name="qa_list">QaList</string>
 </resources>

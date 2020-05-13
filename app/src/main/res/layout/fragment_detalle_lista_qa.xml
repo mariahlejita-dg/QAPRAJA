@@ -25,12 +25,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/numJobQa"
+                android:id="@+id/numberJob_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginEnd="13dp"
+                android:editable="false"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +47,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <TextView
-                android:id="@+id/jobNameqa"
+                android:id="@+id/jobName_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -54,7 +55,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView4"
-                app:layout_constraintTop_toBottomOf="@+id/numJobQa" />
+                app:layout_constraintTop_toBottomOf="@+id/numberJob_process" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -67,7 +68,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <TextView
-                android:id="@+id/customerqa"
+                android:id="@+id/customer_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -75,7 +76,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView6"
-                app:layout_constraintTop_toBottomOf="@+id/jobNameqa" />
+                app:layout_constraintTop_toBottomOf="@+id/jobName_process" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -88,7 +89,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
             <TextView
-                android:id="@+id/mulqa"
+                android:id="@+id/mul_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -96,7 +97,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView10"
-                app:layout_constraintTop_toBottomOf="@+id/customerqa" />
+                app:layout_constraintTop_toBottomOf="@+id/customer_process" />
 
             <TextView
                 android:id="@+id/textView11"
@@ -109,7 +110,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
             <TextView
-                android:id="@+id/qtyqa"
+                android:id="@+id/qty_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -117,7 +118,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView11"
-                app:layout_constraintTop_toBottomOf="@+id/mulqa" />
+                app:layout_constraintTop_toBottomOf="@+id/mul_process" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -130,7 +131,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
             <TextView
-                android:id="@+id/pageCountqa"
+                android:id="@+id/pageCount_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -138,7 +139,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView13"
-                app:layout_constraintTop_toBottomOf="@+id/qtyqa" />
+                app:layout_constraintTop_toBottomOf="@+id/qty_process" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -151,7 +152,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
             <TextView
-                android:id="@+id/cvqa"
+                android:id="@+id/cv_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -159,7 +160,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView15"
-                app:layout_constraintTop_toBottomOf="@+id/pageCountqa" />
+                app:layout_constraintTop_toBottomOf="@+id/pageCount_process" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -172,7 +173,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
             <TextView
-                android:id="@+id/textqa"
+                android:id="@+id/text_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -180,7 +181,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView17"
-                app:layout_constraintTop_toBottomOf="@+id/cvqa" />
+                app:layout_constraintTop_toBottomOf="@+id/cv_process" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -193,7 +194,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
             <TextView
-                android:id="@+id/formatqa"
+                android:id="@+id/format_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -201,7 +202,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView19"
-                app:layout_constraintTop_toBottomOf="@+id/textqa" />
+                app:layout_constraintTop_toBottomOf="@+id/text_process" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -214,7 +215,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
             <TextView
-                android:id="@+id/stockqa"
+                android:id="@+id/stock_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -222,7 +223,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView21"
-                app:layout_constraintTop_toBottomOf="@+id/formatqa" />
+                app:layout_constraintTop_toBottomOf="@+id/format_process" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -235,7 +236,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
             <TextView
-                android:id="@+id/inkqa"
+                android:id="@+id/ink_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -243,7 +244,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView23"
-                app:layout_constraintTop_toBottomOf="@+id/stockqa" />
+                app:layout_constraintTop_toBottomOf="@+id/stock_process" />
 
             <TextView
                 android:id="@+id/textView26"
@@ -256,7 +257,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
             <TextView
-                android:id="@+id/finishSizeqa"
+                android:id="@+id/finishSize_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -264,7 +265,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView26"
-                app:layout_constraintTop_toBottomOf="@+id/inkqa" />
+                app:layout_constraintTop_toBottomOf="@+id/ink_process" />
 
             <TextView
                 android:id="@+id/textView28"
@@ -277,7 +278,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
             <TextView
-                android:id="@+id/bindingqa"
+                android:id="@+id/binding_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -285,7 +286,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView28"
-                app:layout_constraintTop_toBottomOf="@+id/finishSizeqa" />
+                app:layout_constraintTop_toBottomOf="@+id/finishSize_process" />
 
             <TextView
                 android:id="@+id/textView30"
@@ -298,7 +299,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
             <TextView
-                android:id="@+id/dueDateqa"
+                android:id="@+id/dueDate_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -306,7 +307,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView30"
-                app:layout_constraintTop_toBottomOf="@+id/bindingqa" />
+                app:layout_constraintTop_toBottomOf="@+id/binding_process" />
 
             <TextView
                 android:id="@+id/textView32"
@@ -319,7 +320,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView30" />
 
             <TextView
-                android:id="@+id/estadoqa"
+                android:id="@+id/estado_process"
                 android:layout_width="250dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="20dp"
@@ -327,7 +328,7 @@
                 android:layout_marginEnd="13dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView32"
-                app:layout_constraintTop_toBottomOf="@+id/dueDateqa" />
+                app:layout_constraintTop_toBottomOf="@+id/dueDate_process" />
 
             <TextView
                 android:id="@+id/textView34"
@@ -340,7 +341,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
             <TextView
-                android:id="@+id/commentsqa"
+                android:id="@+id/comments_process"
                 android:layout_width="250dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="20dp"
@@ -349,11 +350,35 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.571"
                 app:layout_constraintStart_toEndOf="@+id/textView34"
-                app:layout_constraintTop_toBottomOf="@+id/estadoqa" />
+                app:layout_constraintTop_toBottomOf="@+id/estado_process" />
 
+            <Button
+                android:id="@+id/btnChange"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/cambiar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/comments_process"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <CheckBox
+                android:id="@+id/finishCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/finished"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnChange"
+                app:layout_constraintStart_toEndOf="@+id/textView34"
+                app:layout_constraintTop_toBottomOf="@+id/comments_process" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-
-
 </FrameLayout>

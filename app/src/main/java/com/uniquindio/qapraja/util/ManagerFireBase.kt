@@ -34,17 +34,7 @@ class ManagerFireBase private constructor(){
                 return instancia!!
             }
     }
-    fun insetarToken(s:String) {
-        dataRef!!.child("TOKEN").child(s)
-    }
 
-    fun insetarConLLave(job: Job) {
-        dataRef!!.child("JOBS").child(job.numberJob!!).setValue(job)
-    }
-
-    fun insetarConLLaveProcess(job: Job) {
-        dataRef!!.child("JOBS_PROCESS").child(job.numberJob!!).setValue(job)
-    }
 
     fun insetarConLLavePaused(job: Job) {
         dataRef!!.child("JOBS_PAUSED").child(job.numberJob!!).setValue(job)
@@ -53,11 +43,6 @@ class ManagerFireBase private constructor(){
         dataRef!!.child("JOBS_FINISHED").child(job.numberJob!!).setValue(job)
     }
 
-    fun eliminarJob(id: String?) {
-        if (id != null) {
-            dataRef!!.child("JOBS").child(id).removeValue()
-        }
-    }
 
     fun eliminarJobProcess(id: String?) {
         if (id != null) {
@@ -65,17 +50,6 @@ class ManagerFireBase private constructor(){
         }
     }
 
-    fun eliminarJobPaused(id: String?) {
-        if (id != null) {
-            dataRef!!.child("JOBS_PAUSED").child(id).removeValue()
-        }
-    }
-
-    fun eliminarJobFinished(id: String?) {
-        if (id != null) {
-            dataRef!!.child("JOBS_FINISHED").child(id).removeValue()
-        }
-    }
 
     fun escucharEventoFireBaseProcess() {
         dataRef!!.child("JOBS_PROCESS").addChildEventListener(object : ChildEventListener {

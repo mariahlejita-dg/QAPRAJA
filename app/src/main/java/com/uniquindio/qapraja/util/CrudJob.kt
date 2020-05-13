@@ -12,30 +12,6 @@ class CrudJob {
         fireBasa = ManagerFireBase.managerInstance
     }
 
-    fun agregarTrabajo(job : Job):Boolean{
-        if (job != null){
-            if(job.estado == "PENDING"){
-                fireBasa.insetarConLLave(job)
-                return true
-            }else{
-                fireBasa.insetarConLLaveProcess(job)
-                return true
-            }
-        }
-        return false
-    }
-
-    fun actualizar(job: Job):Boolean{
-        if (job != null){
-            if(job.estado == "IN PROCESS"){
-                fireBasa.insetarConLLaveProcess(job)
-                fireBasa.eliminarJob(job!!.numberJob)
-                return true
-            }
-        }
-        return false
-    }
-
     fun actualizarProcess(job: Job):Boolean{
         if(job != null){
             if(job.estado == "PAUSED"){
@@ -58,16 +34,7 @@ class CrudJob {
         }
         return false
     }
-    fun actualizarPaused(job: Job):Boolean{
-        if(job != null){
-            if(job.estado == "IN PROCESS"){
-                fireBasa.insetarConLLaveProcess(job)
-                fireBasa.eliminarJobPaused(job.numberJob)
-                return true
-            }
-        }
-        return false
-    }
+
 
 
 }

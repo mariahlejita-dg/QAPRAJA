@@ -133,8 +133,8 @@ class Job(): Parcelable {
         dest?.writeString(p)
         dest?.writeString(comment)
         dest?.writeString(estado)
-        dest?.writeString(nombreQa)
         dest?.writeString(nombreMaq)
+        dest?.writeString(nombreQa)
         dest?.writeString(hora)
     }
 

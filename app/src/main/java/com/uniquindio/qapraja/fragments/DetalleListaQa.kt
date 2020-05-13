@@ -7,9 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.CheckBox
+import android.widget.Toast
 
 import com.uniquindio.praja20.vo.Job
 import com.uniquindio.qapraja.R
+import com.uniquindio.qapraja.util.CrudJob
 import kotlinx.android.synthetic.main.fragment_detalle_lista_qa.*
 
 /**
@@ -29,6 +31,7 @@ class DetalleListaQa : Fragment() {
         v = inflater.inflate(R.layout.fragment_detalle_lista_qa, container, false)
         button = v.findViewById(R.id.btnChange)
         checkBox = v.findViewById(R.id.finishCheckBox)
+        actualizar(v)
         return v
     }
 
@@ -50,6 +53,21 @@ class DetalleListaQa : Fragment() {
         dueDate_process.text = job.dueDate
         estado_process.text = job.estado
         comments_process.text = job.comment
+    }
+    fun actualizar(view: View){
+        button.setOnClickListener(){
+            if(checkBox.isChecked){
+                jobDetalle!!.estado = "FINISHED"
+
+                var crudJob:CrudJob = CrudJob()
+                if(crudJob.actualizarProcess(jobDetalle!!)){
+                    Toast.makeText(context,"Exitoso",Toast.LENGTH_LONG)
+                }else{
+                    Toast.makeText(context,"Fracaso",Toast.LENGTH_LONG)
+                }
+
+            }
+        }
     }
 
 }

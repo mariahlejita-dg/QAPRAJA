@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "285929421002",
+    "firebase_url": "https://praja-47781.firebaseio.com",
+    "project_id": "praja-47781",
+    "storage_bucket": "praja-47781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285929421002:android:d2df67f1368aa4a1c29c33",
+        "android_client_info": {
+          "package_name": "com.uniquindio.praja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285929421002-980g12kib5afs48f6cmdjr727kg6vmu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquindio.praja",
+            "certificate_hash": "196ff46c23e9cbf8e1a232dd9310f609fc9d3bf9"
+          }
+        },
+        {
+          "client_id": "285929421002-frfpvheo7i367dsf8elqoubtl0tftqjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquindio.praja",
+            "certificate_hash": "46c01da482ee8fbd1522cc21f67dd16b05a3462d"
+          }
+        },
+        {
+          "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbsFV0vn2bDDvmhtvh5E8hn78EgpO9a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285929421002:android:4d6768200c8e38b6c29c33",
+        "android_client_info": {
+          "package_name": "com.uniquindio.praja20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285929421002-iduh0ve89qo8f1c1jias5hfo4bbdv121.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquindio.praja20",
+            "certificate_hash": "196ff46c23e9cbf8e1a232dd9310f609fc9d3bf9"
+          }
+        },
+        {
+          "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbsFV0vn2bDDvmhtvh5E8hn78EgpO9a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285929421002:android:973ac61d60194ed8c29c33",
+        "android_client_info": {
+          "package_name": "com.uniquindio.qapraja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285929421002-amut19a06t3plem50pq2bp3god1andtq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquindio.qapraja",
+            "certificate_hash": "196ff46c23e9cbf8e1a232dd9310f609fc9d3bf9"
+          }
+        },
+        {
+          "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbsFV0vn2bDDvmhtvh5E8hn78EgpO9a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285929421002-cqq71f3ibj2nubt8qiccesceu6l34k58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

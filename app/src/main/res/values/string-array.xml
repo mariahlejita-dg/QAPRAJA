@@ -1,0 +1,28 @@
+<resources>
+    <string-array name="tipo_personal">
+        <item>"SUPERVISOR"</item>
+        <item>"QA"</item>
+    </string-array>
+
+    <string-array name="estado_job">
+        <item>"PAUSED"</item>
+        <item>"FINISHED"</item>
+    </string-array>
+    <string-array name="estado_Paused">
+        <item>"IN PROCESS"</item>
+    </string-array>
+
+    <string-array name="binding_job">
+        <item>"PB"</item>
+        <item>"SS"</item>
+    </string-array>
+    <string-array name="MachineOption">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>HEIDY 8 COLOR</item>
+        <item>HEIDY 6 COLOR</item>
+        <item>NOTHING</item>
+    </string-array>
+</resources>
